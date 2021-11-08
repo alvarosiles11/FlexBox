@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            margin: 0%;
+        }
+        
+        @media (max-width: 1800px) {
+            .flex>div {
+                width: 100%;
+            }
+        }
+        
+        @media (max-width: 1824px) {
+            .flex {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .flex>div {
+                width: 25%;
+            }
+        }
+        /* @media (max-width: 1024px) {
+            .flex {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .flex>div {
+                width: 24.7%;
+                height: 154px !important;
+                border: 1px solid black;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .flex {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .flex>div {
+                width: 32.33%;
+                height: 284px !important;
+            }
+        } */
+        
+        @media (max-width: 500px) {
+            .flex {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .flex>div {
+                width: 50%;
+                height: 174px !important;
+            }
+        }
+    </style>
+</head>
+º
+
+<body>
+
+    <div style="height: 100%; min-height: 100%; display: flex; flex-direction: column; background: violet;">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, at dolorum earum aliquam enim cupiditate dignissimos explicabo repellendus pariatur, placeat consequatur aspernatur cumque a exercitationem labore. Minus dignissimos iste doloremque!</p>
+
+        <div class="flex" style="flex: 1; height: 100%;">
+            <div style=" height: 100px;  background: turquoise; display: flex; justify-content: center; align-items: center; font-size: 50px;">
+                <p>1</p>
+            </div>
+
+            <div style=" height: 100px;   background: yellow; display: flex; justify-content: center; align-items: center; font-size: 50px;">
+                <p>2</p>
+            </div>
+
+            <div style=" height: 100px;   background: teal; display: flex; justify-content: center; align-items: center; font-size: 50px;">
+                <p>3</p>
+            </div>
+
+            <div style=" height: 100px;  background: turquoise; display: flex; justify-content: center; align-items: center; font-size: 50px;">
+                <p>4</p>
+            </div>
+
+            <div style=" height: 100px;   background: yellow; display: flex; justify-content: center; align-items: center; font-size: 50px;">
+                <p>5</p>
+            </div>
+
+            <div style=" height: 100px;   background: teal; display: flex; justify-content: center; align-items: center; font-size: 50px;">
+                <p>6</p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

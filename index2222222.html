@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html,
+    body {
+        height: 100%;
+        margin: 0px;
+    }
+    /* start efecto scrollbar */
+    
+    html {
+        --scrollbarBG: #F1F1F1;
+        --thumbBG: #A8A8A8;
+    }
+    
+     :root {
+        /* margin: 0;
+        padding: 0; */
+        --primary-color: rgb(162, 204, 224);
+        --second-color: rgb(40, 166, 230);
+        --third-color: rgb(253, 80, 0);
+        --titulo-size: 18px;
+        --subtitulo-size: 14px;
+        --borde: 2px solid rgb(184, 179, 179);
+        --body-bg: rgb(201, 40, 40);
+        --img: url(https://i.ytimg.com/vi/sLjpA8jiYbc/maxresdefault.jpg);
+    }
+    
+    div::-webkit-scrollbar {
+        width: 11px;
+    }
+    
+    div {
+        scrollbar-width: thin;
+        scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+    }
+    
+    div::-webkit-scrollbar-track {
+        background: var(--scrollbarBG);
+    }
+    
+    div::-webkit-scrollbar-thumb {
+        background-color: var(--thumbBG);
+        border-radius: 6px;
+        border: 3px solid var(--scrollbarBG);
+    }
+    /* end efecto scrollbar */
+</style>
+
+
+<body>
+
+    <style>
+        .svg {
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            background: black;
+            padding: 5px;
+        }
+    </style>
+
+
+    <div style="height: 100%; min-height: 100%; display: flex; flex-direction: column;">
+        <div style="height: 100%; min-height: 90%; flex:1; display: flex; justify-content: center; background:var(--body-bg);">
+            <div style="width: 90%; display: flex; flex-direction: column;">
+                <div style="height: 50px; background:var(--second-color); display: flex;">
+
+                    <div style="width: 100%; height: 100%; display: flex; align-items: center; ">
+                        <p style="font-size: 32px;">Chat</p>
+                    </div>
+                    <div style="width: 100px; border: var(--borde); display: flex;">
+
+                        <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
+                            <img src="Assets/icon_plus.svg" alt="" class="svg">
+                        </div>
+                        <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
+                            <img src="Assets/icon_plus.svg" alt="" class="svg">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div style="height: 50px; width: 100%; background: var(--primary-color); display: flex; align-items: center; justify-content: center; ">
+
+                    <input type="text" style="width: 100%; height: 20px; border: 2px solid springgreen; border-radius: 15px;" placeholder="search">
+
+                </div>
+                <div style="flex: 1; overflow: auto; background:var(--second-color); padding: 0px 10px;">
+                    <p>Cuerpo</p>
+                    <p style="background: yellow;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla iure quibusdam animi! Necessitatibus dolor numquam ad quo libero similique, corporis consequatur voluptatem laboriosam aspernatur quidem deleniti odit facere
+                        quas.
+                    </p>
+                    <p style="background: yellowgreen;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla iure quibusdam animi! Necessitatibus dolor numquam ad quo libero similique, corporis consequatur voluptatem laboriosam aspernatur quidem deleniti odit facere
+                        quas.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla iure quibusdam animi! Necessitatibus dolor numquam ad quo libero similique, corporis consequatur voluptatem laboriosam aspernatur quidem deleniti odit facere
+                        quas.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla iure quibusdam animi! Necessitatibus dolor numquam ad quo libero similique, corporis consequatur voluptatem laboriosam aspernatur quidem deleniti odit facere
+                        quas.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla iure quibusdam animi! Necessitatibus dolor numquam ad quo libero similique, corporis consequatur voluptatem laboriosam aspernatur quidem deleniti odit facere
+                        quas.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla iure quibusdam animi! Necessitatibus dolor numquam ad quo libero similique, corporis consequatur voluptatem laboriosam aspernatur quidem deleniti odit facere
+                        quas.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla iure quibusdam animi! Necessitatibus dolor numquam ad quo libero similique, corporis consequatur voluptatem laboriosam aspernatur quidem deleniti odit facere
+                        quas.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla iure quibusdam animi! Necessitatibus dolor numquam ad quo libero similique, corporis consequatur voluptatem laboriosam aspernatur quidem deleniti odit facere
+                        quas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div style="height: 10%; background: var(--primary-color); display: flex;">
+
+            <div style="flex: 1; display: flex; align-items: center; justify-content: center; ">
+                <div style="width: 40px; height: 40px; background: black; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
+                    <p style="color: white;">A</p>
+                </div>
+            </div>
+            <div style="flex: 1; display: flex; align-items: center; justify-content: center; ">
+                <div style="width: 40px; height: 40px; background: black; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
+                    <p style="color: white;">B</p>
+                </div>
+            </div>
+            <div style="flex: 1; display: flex; align-items: center; justify-content: center; ">
+                <div style="width: 40px; height: 40px; background: black; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
+                    <p style="color: white;">C</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
